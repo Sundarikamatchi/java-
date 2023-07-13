@@ -1,0 +1,16 @@
+import java.util.*;
+ 
+class Num
+{
+    public static void main(String []s)
+    {
+        int n;
+        Scanner sc=new Scanner(System.in);
+         
+        System.out.print("Enter any integer number which is more than one digit: ");
+        n=sc.nextInt();
+    
+            System.out.println(n%10);
+         
+    }
+}
