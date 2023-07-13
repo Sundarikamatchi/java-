@@ -1,0 +1,21 @@
+import java.util.*;
+ 
+class Num
+{
+    public static void main(String []s)
+    {
+        int n1,n2,n;
+        Scanner sc=new Scanner(System.in);
+         
+        System.out.print("Enter any integer number: ");
+        n1=sc.nextInt();
+        System.out.print("Enter any integer number: ");
+        n2=sc.nextInt();
+        n=n1+n2;
+        if(n%2==0)
+            System.out.println( "Sum is even");
+        else
+            System.out.println("Sum is odd");
+         
+    }
+}
