@@ -1,0 +1,10 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int n1=324,n2=245,n;
+		n1=n1%10;
+		n2=n2%10;
+		n=n1+n2;
+		System.out.print(n);
+	}
+}
