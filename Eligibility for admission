@@ -1,0 +1,17 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Enter tha marks in the order maths,physics and chemistry");
+        Scanner marks=new Scanner(System.in);
+        int maths=marks.nextInt();
+        int physics=marks.nextInt();
+        int chemistry=marks.nextInt();
+        int Total=maths+physics+chemistry;
+        if(((maths>=65)&&(physics>=55)&&(chemistry>=50))||(Total>=180)){
+            System.out.println("eligible");
+        }
+        else{
+            System.out.println("Not eligible for Admission");
+        }
+    }
+}
